@@ -1,5 +1,5 @@
 ### Kaggle-titanic
-Titanic Machine Learning From Disaster is my first data science project and also my first submission in a Kaggle competition. 
+[Titanic Machine Learning From Disaster](https://www.kaggle.com/c/titanic) is my first data science project and also my first submission in a Kaggle competition. 
 The goal was to have a first real experience in machine learning, python, sklearn and try many different classifiers.
 
 ### Installation:
@@ -31,27 +31,25 @@ You can read more about using conda environments in the [Managing Environments](
 
 >This Kaggle Getting Started Competition provides an ideal starting place for people who may not have a lot of experience in data science and machine learning."
 
-From the competition [homepage](http://www.kaggle.com/c/titanic-gettingStarted).
+From the competition [homepage](https://www.kaggle.com/c/titanic).
 
 ### Goal for this Notebook:
 Show a simple example of an analysis of the Titanic disaster in Python. This is aimed for those looking to get into the field or those who are already in the field and looking to see an example of an analysis done with Python.
 
 #### This Notebook will show basic examples of:
 #### Data Handling
-*   Importing Data with [Pandas](https://pandas.pydata.org/)
-*   Cleaning Data
-*   Exploring Data through Visualizations with [Seaborn](https://seaborn.pydata.org/)
+- Importing and Cleaning Data with [Pandas](https://pandas.pydata.org/)
+- Exploring Data through Visualizations with [Seaborn](https://seaborn.pydata.org/)
 
-#### Data Analysis
-*    Supervised Machine learning Techniques:
-    +   Feature ranking with recursive feature elimination and cross-validated selection of the best number of features with [RFECV](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFECV.html)
-    +   Benchmarks multiple classifiers among [XGBClassifier](https://xgboost.readthedocs.io/en/latest/python/python_api.html), [AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html), [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
-    +   Benchmarks multiple hyper parameters with [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) and cross validation
-    +   Displaying results
-	+   Refining hyper parameters for the best model with [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
+#### Data Analysis - Supervised Machine learning Techniques:
+- Feature ranking with recursive feature elimination and cross-validated selection of the best number of features with [RFECV](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFECV.html)
+- Benchmarks multiple classifiers among [XGBClassifier](https://xgboost.readthedocs.io/en/latest/python/python_api.html), [AdaBoostClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html), [DecisionTreeClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html), [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- Benchmarks multiple hyper parameters with [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html) and cross validation
+- Displaying results
+- Refining hyper parameters for the best model with [GridSearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
 
 #### Valuation of the Analysis
-*   K-folds cross validation to valuate results locally
-*   Output the results from the Notebook to Kaggle
+- K-folds cross validation to valuate results locally
+- Output the results from the Notebook to Kaggle
 
-Competition Website: http://www.kaggle.com/c/titanic-gettingStarted
+Competition Website: https://www.kaggle.com/c/titanic
