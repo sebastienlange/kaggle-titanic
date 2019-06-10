@@ -2,6 +2,8 @@
 [Titanic Machine Learning From Disaster](https://www.kaggle.com/c/titanic) is my first data science project and also my first submission in a Kaggle competition. 
 The goal was to have a first real experience in machine learning, python, sklearn and try many different classifiers.
 
+You can either view my analysis directly in the Jupyter Notebook [Titanic.ipynb](Titanic.ipynb) or install and run the full environment as described hereafter.
+
 ### Installation:
 
 The code was tested with Python 3.6.
